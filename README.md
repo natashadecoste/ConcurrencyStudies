@@ -11,6 +11,9 @@ SeatBooking.java - A system where there are client threads that pick a seat at r
 DiningSavages.java - Modelling the Dining Savages problem. There are N savages all sharing food from a pot that holds M servings. The cook refills the pot as soon as it is empty (servings = 0). At any time, the savages are trying to get a serving. Only one can access the pot at once (Mutual Exclusion.) Here it is simulated with 4 Savages and a pot containing 6 portions (or servings)
 . It can be scaled to N savages and M portions if necessary.
 
+Barrier.java - Class barrier has a sync function that is mutually exclusive however all threads must perform the sync before any of them can continue to execute their following instructions. Currently modelled with 3 threads.  
+
+
 ***************************************
 
 Natasha DeCoste
